@@ -55,34 +55,63 @@ to:
 **"Here's what you should do next, and why."**
 
 ## MVP
-The first version of REPPO will focus on proving one core experience:
+The first version of REPPO will focus on proving one core experience: **plan, perform, track, and adapt strength workouts with an AI coach.**
 
-### 1. Create a Workout
-Users can create or select a workout containing multiple exercises from a library. Users can generate a workout via AI based on composition goals, equipment availability, workout duration, and workout frequency.
-### 2. Log a Workout
+### 1. AI Workout Programming
+Users can create workouts manually or generate personalized workouts with AI based on goals, equipment availability, workout duration, and workout frequency. REPPO can also generate future workouts based on previous training performance.
+### 2. Workout Planning & Scheduling
+Users can plan and organize upcoming workouts through:
+* Calendar view
+* List view
+* Drag-and-drop workout scheduling
+* Workout and rest day visibility
+### 3. Guided Workout Experience
+Users can start a planned workout and progress through exercises and sets before completing and saving the session. During an active workout, REPPO displays the user's **most recent performance** for each exercise alongside the recommended targets.
+### 4. Workout Logging
 For each exercise, users can record:
-* Exercise
 * Sets
 * Reps
 * Weight
 * Difficulty / perceived effort
 * Optional notes
-### 3. View Workout History
-Users can see previous workouts and exercise performance over time.
-### 4. Receive an AI Recommendation
-REPPO uses previous workout performance and user feedback to recommend what the user should do the next time they perform an exercise.
-For example:
+Users can also manually log workouts that were not originally generated or scheduled in REPPO.
+### 5. Adaptive Progression
+After each set, users rate how difficult the set felt.
+REPPO combines perceived effort with actual weight and reps completed to recommend future progression.
 > **Last workout**
 > Squat: 3 × 8 @ 90 lbs
 > Difficulty: Challenging
 
 > **REPPO recommends**
 > Stay at 90 lbs and aim for 3 × 9 before increasing weight.
+### 6. Workout Utilities
+REPPO provides tools to support users during an active workout, including:
+* Rest countdown timer
+* Adjustable rest periods
+* Exercise notes
+### 7. AI Workout Coach
+Users can chat with REPPO before or during a workout to make adjustments based on real-world constraints.
+For example:
+> "I only have 30 minutes today."
+> "The cable machine is taken."
+> "This exercise doesn't feel good today."
 
-### 5. Modify a Workout
-Users can tell REPPO about a constraint such as:
-> "I only have 30 minutes today." or  "The cable machine is taken."
-REPPO can recommend how to adjust the planned workout while preserving its overall training goal.
+REPPO can replace exercises, modify sets or reps, or shorten the remaining workout while preserving its overall training goal and completed progress.
+### 8. Exercise Library
+Users can browse exercises and view:
+* Exercise instructions
+* Target muscle groups
+* Required equipment
+* Exercise alternatives
+* Demonstrations
+### 9. Progress & Analytics
+Users can review their training history and understand progress over time, including:
+* Previous workouts
+* Strength progression
+* Training volume
+* Personal records
+* Workout consistency
+* AI-generated progress insights
 
 ## Not in the MVP
 REPPO could eventually become a much larger fitness platform, but the first version will intentionally not attempt to solve everything.
